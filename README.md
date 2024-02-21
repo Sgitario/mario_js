@@ -4,6 +4,18 @@
 
 ### Super Mario Bros Level 1-1 recreated in JavaScript
 
+## Build
+
+Install webpack-cli if not installed yet:
+```
+npm install -D webpack-cli --force
+```
+
+Build the bundle.js and run:
+```
+npx webpack build --config ./webpack.config.js --watch
+```
+
 ## [Play Now!](https://tylerreichle.github.io/mario_js/)
 
  Mario runs through each level trying to reach the castle on the other side to save the princess. Each level contains various enemies, coins to collect, and mushrooms to power-up Mario. Mario's primary form of attack is jumping on top of enemies but touching enemies from the sides results in loss of a life.

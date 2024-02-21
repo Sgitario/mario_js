@@ -23,5 +23,8 @@
   "homepage": "https://github.com/tylerreichle/mario_js#readme",
   "dependencies": {
     "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
   }
 }
